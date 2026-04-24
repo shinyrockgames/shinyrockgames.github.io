@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiny Rock Games</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a0a2e 0%, #2d1b4e 50%, #4a1942 100%);
+            color: #f0e6ff;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #ffb347 0%, #ff7e5f 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: #b8a3d4;
+        }
+
+        .game-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+        }
+
+        .game-card h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #ffb347;
+        }
+
+        .game-card p {
+            margin-bottom: 20px;
+            color: #d4c5e8;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+            color: #1a0a2e;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+        }
+
+        .info-section {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .info-section h3 {
+            margin-bottom: 15px;
+            color: #ffb347;
+        }
+
+        .info-section p {
+            margin-bottom: 10px;
+            color: #b8a3d4;
+        }
+
+        .info-section a {
+            color: #feb47b;
+            text-decoration: none;
+        }
+
+        .info-section a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #8a7aa0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Shiny Rock Games</h1>
+            <p class="tagline">Independent mobile game development</p>
+        </header>
+
+        <div class="game-card">
+            <h2>🎃 Creature Castle</h2>
+            <p>A spooky Halloween-themed match-3 puzzle adventure! Match vampires, ghosts, mummies, pumpkins, and Frankensteins to clear haunted boards. Unlock and decorate your own gothic dungeon rooms as you progress through the castle.</p>
+            <a href="https://play.google.com/store/apps/details?id=com.shinyrockgames.monstercastle" class="button">Get it on Google Play</a>
+        </div>
+
+        <div class="info-section">
+            <h3>Support & Contact</h3>
+            <p>For support enquiries, please contact us at: <a href="mailto:shinyrockgames@gmail.com">shinyrockgames@gmail.com</a></p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Shiny Rock Games. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

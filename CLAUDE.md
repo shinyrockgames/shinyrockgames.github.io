@@ -78,6 +78,6 @@ Search the files for `TODO` and `[` placeholders. Outstanding:
 - [ ] Instagram and Threads: add to both footers once the accounts exist
 - [ ] Press kit: none yet; add a footer link if one is made
 - [ ] Gameplay trailer: the hero currently shows the demo announcement teaser; swap it when real gameplay footage exists
-- [ ] Pog artwork and perk names
+- [ ] Pog artwork: the four pogs on `scrunge.html` show Wide Pot, Hot Hands, Last Chance and Encore as text on the face until art exists
 - [ ] A proper share image (1200x630) for `index.html` (`scrunge.html` already has one)
 - [ ] Before launch: hide or remove any section still full of placeholders rather than shipping it half-finished

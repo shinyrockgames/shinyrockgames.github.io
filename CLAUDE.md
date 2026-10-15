@@ -6,7 +6,7 @@ Nieve reviews and commits everything in GitHub Desktop. **Do not commit or push.
 
 ## Files
 
-- `index.html`: home page (hero, our games, "What does this mean?" series teaser, about, Discord/sign-up band)
+- `index.html`: home page (hero, our games, "What does this mean?" series teaser, about, Discord band)
 - `scrunge.html`: Scrunge game page (hero + trailer, how it plays, pogs, tiddlywinks glossary, demo CTA)
 - `style.css`: all shared styles; design tokens are CSS variables at the top
 - `images/logo.png`: gnome sticker logo with transparent background (also used as favicon and og:image for now)
@@ -66,7 +66,7 @@ UK English. Plain, warm, a bit daft, specific to tiddlywinks. Short sentences. R
 - **Creature Castle:** spooky match-3 game, out now on Google Play (Android): https://play.google.com/store/apps/details?id=com.shinyrockgames.monstercastle
 - **Support email:** shinyrockgames@gmail.com (footer "Contact" link; Google Play needs a support contact, so keep it).
 - **"What does this mean?"** video series: not ready yet, shown as "coming soon" everywhere. Don't add episode cards until there are real episodes. Episode one is about the word "scrunge" itself (a wink that bounces back out of the pot). It's the first card in the "Learn the lingo" glossary on `scrunge.html`.
-- **Discord:** https://discord.gg/f2EysadzFF (real, working link).
+- **Discord:** https://discord.gg/f2EysadzFF (real, working link). It's the main way to follow the studio: there is no mailing list, so don't add an email sign-up.
 - **TikTok:** https://www.tiktok.com/@shiny.rock.games (real; use this clean URL, not the share link with tracking parameters).
 - **No other socials yet.** Instagram and Threads are being set up. There is no X, Bluesky, itch.io page or press kit, so don't link to them.
 
@@ -77,7 +77,6 @@ Search the files for `TODO` and `[` placeholders. Outstanding:
 - [ ] itch.io page: when it exists, switch the two "Follow on TikTok" buttons on `scrunge.html` back to itch.io and add it to the footer
 - [ ] Instagram and Threads: add to both footers once the accounts exist
 - [ ] Press kit: none yet; add a footer link if one is made
-- [ ] Mailing list: GitHub Pages can't store emails. Either wire the form to a service (Buttondown, Mailchimp) or remove the form and keep Discord only
 - [ ] Scrunge one-line pitch
 - [ ] Gameplay trailer: the hero currently shows the demo announcement teaser; swap it when real gameplay footage exists
 - [ ] Pog artwork and perk names

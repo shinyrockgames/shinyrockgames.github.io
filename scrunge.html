@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scrunge | Shiny Rock Games</title>
+<meta name="description" content="Scrunge is a single-player tiddlywinks game from Shiny Rock Games. Flick your Wink, smash into everything, collect pogs and sink it in the pot. Demo coming soon on itch.io.">
+<meta property="og:title" content="Scrunge | Shiny Rock Games">
+<meta property="og:description" content="A tiddlywinks game. Demo coming soon on itch.io.">
+<meta property="og:image" content="https://shinyrockgames.github.io/images/scrunge-share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="index.html">
+      <img src="images/logo.png" alt="">
+      <span>Shiny Rock Games</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">All games</a>
+      <a href="#pogs">Pogs</a>
+      <a href="#lingo">The lingo</a>
+      <a class="btn btn--primary btn--small" href="https://discord.gg/f2EysadzFF">Discord</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero hero--game sunburst">
+    <svg class="shard" aria-hidden="true" width="140" height="140" viewBox="0 0 100 100" style="left:4%;top:14%;rotate:-18deg"><path d="M8 52 L92 8 L68 92 Z" fill="#2BD67E" stroke-width="5"/><path d="M92 8 L38 52 L68 92" fill="none" stroke="#17804A" stroke-width="2"/></svg>
+    <svg class="shard" aria-hidden="true" width="120" height="120" viewBox="0 0 100 100" style="right:5%;top:10%;rotate:24deg"><path d="M50 6 L94 86 L8 74 Z" fill="#FF6B57" stroke-width="6"/><path d="M50 6 L44 76 L94 86" fill="none" stroke="#A33A2C" stroke-width="2"/></svg>
+    <svg class="shard" aria-hidden="true" width="100" height="100" viewBox="0 0 100 100" style="left:10%;bottom:10%;rotate:12deg"><path d="M10 30 L70 8 L94 64 L40 92 Z" fill="#8A4FD8" stroke-width="6"/><path d="M70 8 L52 56 L40 92" fill="none" stroke="#4E2A85" stroke-width="2"/></svg>
+    <svg class="shard" aria-hidden="true" width="110" height="110" viewBox="0 0 100 100" style="right:9%;bottom:14%;rotate:-30deg"><path d="M14 86 L54 10 L92 92 Z" fill="#E8A84B" stroke-width="6"/><path d="M54 10 L50 80 L92 92" fill="none" stroke="#8A5E22" stroke-width="2"/></svg>
+
+    <div class="wrap hero-centre">
+      <h1 class="display h1--huge">Scrunge</h1>
+      <div class="colour-bar" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+      <span class="tagline">Demo coming soon on itch.io</span>
+      <!-- TODO: one-line pitch -->
+      <p class="lead" style="max-width:640px">[Your one-line pitch for Scrunge.]</p>
+
+      <!-- Demo announcement teaser. Swap for a gameplay trailer when there is one. -->
+      <div class="trailer">
+        <video controls playsinline preload="none" poster="images/scrunge-trailer-poster.jpg" aria-label="Scrunge demo announcement: the Scrunge logo with Mr Scrunge peeking over the top, then the words Demo coming soon">
+          <source src="videos/scrunge-demo-announcement.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="btn-row" style="justify-content:center">
+        <!-- TODO: swap back to "Follow on itch.io" once the itch.io page exists -->
+        <a class="btn btn--primary" href="https://www.tiktok.com/@shiny.rock.games">Follow on TikTok</a>
+        <a class="btn btn--outline" href="https://discord.gg/f2EysadzFF">Demo news on Discord</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--black">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:56px">
+      <h2 class="display h2">How it plays</h2>
+      <div class="steps">
+        <div class="step">
+          <video class="step__media" src="videos/scrunge-flick.mp4" poster="videos/scrunge-flick.jpg" autoplay muted loop playsinline disablepictureinpicture aria-label="Gameplay clip: a red wink is flicked from the start line, flips through the air and lands on the mat for 27 points"></video>
+          <div class="step__copy">
+            <span class="step__num" aria-hidden="true">01</span>
+            <h3 class="h3">Flick</h3>
+            <p class="body-dim">Flick your Wink across the mat, line up your shots and send it flying into the chaos. Master your aim, find the perfect angle and make every flick count.</p>
+          </div>
+        </div>
+        <div class="step">
+          <video class="step__media" src="videos/scrunge-smash.mp4" poster="videos/scrunge-smash.jpg" autoplay muted loop playsinline disablepictureinpicture aria-label="Gameplay clip: a red wink ricochets off pillars, a teddy bear and a chest of drawers, the multiplier climbs to x3 and the shot scores 129"></video>
+          <div class="step__copy">
+            <span class="step__num" aria-hidden="true">02</span>
+            <h3 class="h3">Smash</h3>
+            <p class="body-dim">Bounce off obstacles, smash into things and rack up your multiplier. The bigger the combo, the bigger the score, so keep the momentum going!</p>
+          </div>
+        </div>
+        <div class="step">
+          <video class="step__media" src="videos/scrunge-pot.mp4" poster="videos/scrunge-pot.jpg" autoplay muted loop playsinline disablepictureinpicture aria-label="Gameplay clip: a red wink drops into the cup, a Cuddle bonus pops up and the score jumps past the target"></video>
+          <div class="step__copy">
+            <span class="step__num" aria-hidden="true">03</span>
+            <h3 class="h3">Pot</h3>
+            <p class="body-dim">Sink your Wink to complete the round, bank your score and unlock what comes next. Build your run, discover new possibilities and see just how far you can push it.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pogs" class="section section--cream">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:56px">
+      <div style="display:flex;flex-direction:column;gap:16px;max-width:700px">
+        <h2 class="display h2">Collect the pogs</h2>
+        <p style="margin:0;font-size:20px">Every perk in Scrunge is a pog. Stack them, swap them, and bend the rules of the table in your favour.</p>
+      </div>
+      <!-- TODO: swap [Perk art] for real pog artwork and names -->
+      <div class="pogs">
+        <div class="pog pog--green"><div class="pog__disc" role="img" aria-label="Perk pog"><div class="pog__face">[Perk art]</div></div><span class="pog__name">[Perk name]</span></div>
+        <div class="pog pog--purple"><div class="pog__disc" role="img" aria-label="Perk pog"><div class="pog__face">[Perk art]</div></div><span class="pog__name">[Perk name]</span></div>
+        <div class="pog pog--amber"><div class="pog__disc" role="img" aria-label="Mr Scrunge pog"><div class="pog__face">[Mr Scrunge]</div></div><span class="pog__name">[Rare pog name]</span></div>
+        <div class="pog pog--coral"><div class="pog__disc" role="img" aria-label="Perk pog"><div class="pog__face">[Perk art]</div></div><span class="pog__name">[Perk name]</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="lingo" class="section">
+    <div class="wrap" style="display:flex;flex-wrap:wrap;gap:40px">
+      <div style="flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:16px">
+        <h2 class="display h2">Learn the lingo</h2>
+        <p class="body-dim" style="font-size:20px">Tiddlywinks has some of the best words in sport. Our upcoming "What does this mean?" video series will break them down, one daft term at a time. Episode one starts with the obvious one: what does scrunge mean?</p>
+        <span class="label-box">Episode one coming soon</span>
+      </div>
+      <dl class="glossary">
+        <div><dt style="color:var(--green)">Scrunge</dt><dd>When your wink drops into the pot and bounces straight back out again. Agonising.</dd></div>
+        <div><dt style="color:var(--purple-light)">Squidger</dt><dd>The bigger disc you press on a wink's edge to send it flying.</dd></div>
+        <div><dt style="color:var(--coral)">Pot out</dt><dd>Getting all of your winks into the pot. Game over, glory secured.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section sunburst" style="border-top:2px solid var(--panel-2)">
+    <div class="cta-box cta-box--centre">
+      <h2 class="cta-title">The demo is nearly here</h2>
+      <p class="body-dim" style="max-width:620px">Follow us on TikTok for early looks, and join the Discord to hear the second the demo drops.</p>
+      <div class="btn-row">
+        <!-- TODO: swap back to "Follow on itch.io" once the itch.io page exists -->
+        <a class="btn btn--primary" href="https://www.tiktok.com/@shiny.rock.games">Follow on TikTok</a>
+        <a class="btn btn--outline" href="https://discord.gg/f2EysadzFF">Join the Discord</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="footer-brand">Shiny Rock Games</span>
+    <div class="footer-links">
+      <a href="https://discord.gg/f2EysadzFF">Discord</a>
+      <a href="https://www.tiktok.com/@shiny.rock.games">TikTok</a>
+      <!-- TODO: add Instagram and Threads once the accounts exist -->
+      <a href="mailto:shinyrockgames@gmail.com">Contact</a>
+    </div>
+    <span class="footer-copy">© 2026 Shiny Rock Games</span>
+  </div>
+</footer>
+
+</body>
+</html>

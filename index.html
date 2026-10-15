@@ -1,140 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-GB">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shiny Rock Games</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: linear-gradient(135deg, #1a0a2e 0%, #2d1b4e 50%, #4a1942 100%);
-            color: #f0e6ff;
-            min-height: 100vh;
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 60px 20px;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 60px;
-        }
-
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-            background: linear-gradient(135deg, #ffb347 0%, #ff7e5f 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .tagline {
-            font-size: 1.2rem;
-            color: #b8a3d4;
-        }
-
-        .game-card {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 30px;
-            backdrop-filter: blur(10px);
-        }
-
-        .game-card h2 {
-            font-size: 2rem;
-            margin-bottom: 15px;
-            color: #ffb347;
-        }
-
-        .game-card p {
-            margin-bottom: 20px;
-            color: #d4c5e8;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 12px 24px;
-            background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
-            color: #1a0a2e;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: transform 0.2s;
-        }
-
-        .button:hover {
-            transform: translateY(-2px);
-        }
-
-        .info-section {
-            margin-top: 40px;
-            padding-top: 30px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .info-section h3 {
-            margin-bottom: 15px;
-            color: #ffb347;
-        }
-
-        .info-section p {
-            margin-bottom: 10px;
-            color: #b8a3d4;
-        }
-
-        .info-section a {
-            color: #feb47b;
-            text-decoration: none;
-        }
-
-        .info-section a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 60px;
-            padding-top: 30px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: #8a7aa0;
-            font-size: 0.9rem;
-        }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shiny Rock Games</title>
+<meta name="description" content="Shiny Rock Games makes small games with big shine. Our next game, Scrunge, is a tiddlywinks game with a demo coming soon on itch.io.">
+<meta property="og:title" content="Shiny Rock Games">
+<meta property="og:description" content="Small games, big shine. Scrunge demo coming soon.">
+<meta property="og:image" content="images/logo.png">
+<link rel="icon" type="image/png" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Shiny Rock Games</h1>
-            <p class="tagline">Independent mobile game development</p>
-        </header>
 
-        <div class="game-card">
-            <h2>🎃 Creature Castle</h2>
-            <p>A spooky Halloween-themed match-3 puzzle adventure! Match vampires, ghosts, mummies, pumpkins, and Frankensteins to clear haunted boards. Unlock and decorate your own gothic dungeon rooms as you progress through the castle.</p>
-            <a href="https://play.google.com/store/apps/details?id=com.shinyrockgames.monstercastle" class="button">Get it on Google Play</a>
-        </div>
-
-        <div class="info-section">
-            <h3>Support & Contact</h3>
-            <p>For support enquiries, please contact us at: <a href="mailto:shinyrockgames@gmail.com">shinyrockgames@gmail.com</a></p>
-        </div>
-
-        <footer>
-            <p>&copy; 2026 Shiny Rock Games. All rights reserved.</p>
-        </footer>
+<header class="site-header">
+  <nav class="nav" aria-label="Main">
+    <a class="brand" href="index.html">
+      <img src="images/logo.png" alt="">
+      <span>Shiny Rock Games</span>
+    </a>
+    <div class="nav-links">
+      <a href="#games">Games</a>
+      <a href="#series">Series</a>
+      <a href="#about">About</a>
+      <a class="btn btn--primary btn--small" href="https://discord.gg/f2EysadzFF">Discord</a>
     </div>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero hero--home sunburst">
+    <svg class="shard" aria-hidden="true" width="150" height="150" viewBox="0 0 100 100" style="left:3%;top:10%;rotate:-14deg"><path d="M8 52 L92 8 L68 92 Z" fill="#E8A84B" stroke-width="5"/><path d="M92 8 L38 52 L68 92" fill="none" stroke="#8A5E22" stroke-width="2"/></svg>
+    <svg class="shard" aria-hidden="true" width="90" height="90" viewBox="0 0 100 100" style="left:30%;top:6%;rotate:18deg"><path d="M50 6 L94 86 L8 74 Z" fill="#8A4FD8" stroke-width="6"/><path d="M50 6 L44 76 L94 86" fill="none" stroke="#4E2A85" stroke-width="2"/></svg>
+    <svg class="shard" aria-hidden="true" width="110" height="110" viewBox="0 0 100 100" style="left:8%;bottom:8%;rotate:8deg"><path d="M14 86 L54 10 L92 92 Z" fill="#2BD67E" stroke-width="6"/><path d="M54 10 L50 80 L92 92" fill="none" stroke="#17804A" stroke-width="2"/></svg>
+    <svg class="shard" aria-hidden="true" width="120" height="120" viewBox="0 0 100 100" style="right:4%;top:8%;rotate:-22deg"><path d="M10 30 L70 8 L94 64 L40 92 Z" fill="#FF6B57" stroke-width="5"/><path d="M70 8 L52 56 L40 92" fill="none" stroke="#A33A2C" stroke-width="2"/></svg>
+    <svg class="shard" aria-hidden="true" width="100" height="100" viewBox="0 0 100 100" style="right:30%;bottom:6%;rotate:30deg"><path d="M20 20 L88 34 L62 92 Z" fill="#E8A84B" stroke-width="6"/><path d="M88 34 L44 48 L62 92" fill="none" stroke="#8A5E22" stroke-width="2"/></svg>
+
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1 class="display h1">Our next game is Scrunge</h1>
+        <div class="colour-bar" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <span class="tagline">Small games, big shine</span>
+        <p class="lead">A single-player tiddlywinks game. Flick, smash and pot your way to glory. The playable demo lands on itch.io soon.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="scrunge.html">See Scrunge</a>
+          <a class="btn btn--outline" href="https://discord.gg/f2EysadzFF">Join the Discord</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="images/logo.png" alt="The Shiny Rock Games gnome holding a glowing gem">
+      </div>
+    </div>
+  </section>
+
+  <section id="games" class="section section--black">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:40px">
+      <h2 class="display h2">Our games</h2>
+      <div class="games-grid">
+
+        <article class="game-card">
+          <img src="images/scrunge-screenshot.webp" width="1200" height="675" loading="lazy" alt="The Scrunge logo above a red wink resting against the pot on an orange mat">
+          <div class="game-card__body">
+            <h3 class="h3">Scrunge</h3>
+            <div class="tags"><span class="tag tag--amber">IN DEVELOPMENT</span><span class="tag">PC / ITCH.IO</span></div>
+            <p class="body-dim">Flick your Wink, smash into everything, collect pogs and sink it in the pot.</p>
+            <a class="btn btn--primary btn--small" href="scrunge.html">Explore</a>
+          </div>
+        </article>
+
+        <article class="game-card">
+          <img src="images/creature-castle-screenshot.webp" width="1200" height="675" loading="lazy" alt="The Creature Castle app icon, a pixel-art Frankenstein, beside three phone screens: a haunted match-3 board, the Monster Castle map and a dungeon room to unlock">
+          <div class="game-card__body">
+            <h3 class="h3">Creature Castle</h3>
+            <div class="tags"><span class="tag tag--green">OUT NOW</span><span class="tag">ANDROID</span></div>
+            <p class="body-dim">A spooky match-3 puzzler. Match vampires, ghosts, mummies, pumpkins and Frankensteins to clear haunted boards, then decorate your own gothic dungeon rooms.</p>
+            <a class="btn btn--primary btn--small btn--green" href="https://play.google.com/store/apps/details?id=com.shinyrockgames.monstercastle">Get it on Google Play</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="series" class="section">
+    <div class="wrap split">
+      <div class="grow">
+        <h2 class="display h2">What does this mean?</h2>
+        <p class="lead" style="max-width:640px">A new video series on the gloriously odd language of tiddlywinks, told with real Scrunge footage. Episode one starts with the big question: what does scrunge actually mean?</p>
+      </div>
+      <div class="panel">
+        <span class="panel__title">Coming soon</span>
+        <p class="body-dim">Join the Discord to catch episode one the day it drops.</p>
+        <a class="btn btn--primary btn--small" href="https://discord.gg/f2EysadzFF">Join the Discord</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section section--cream">
+    <div class="wrap about">
+      <div class="about__art"><img src="images/logo.png" alt=""></div>
+      <div class="about__copy">
+        <h2 class="display h2">About the studio</h2>
+        <p><strong>Welcome to the workshop.</strong></p>
+        <p>We’re Shiny Rock Games, an indie game studio building weird, fun and slightly chaotic games. We like strange ideas, unexpected mechanics and making things that are just a little bit different.</p>
+        <p>From chaotic tiddlywinks in <strong><a href="scrunge.html">Scrunge</a></strong> to whatever we dream up next, there’s always something brewing in the workshop.</p>
+        <p><strong>Come see what we’re making. Things might get weird.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section sunburst">
+    <div class="cta-box">
+      <div>
+        <h2 class="cta-title">Join us on Discord</h2>
+        <p class="mono" style="margin:0;font-size:18px">discord.gg/f2EysadzFF</p>
+        <p class="body-dim">Dev updates, early looks and first dibs on the Scrunge demo.</p>
+      </div>
+      <!-- TODO: GitHub Pages can't store emails. Point this form's action at a mailing list service
+           (e.g. Buttondown or Mailchimp embed URL), or delete this block and keep Discord only. -->
+      <form class="signup" action="#TODO-mailing-list" method="post" style="display:flex;flex-direction:column;gap:12px">
+        <label for="email">Or get an email when the demo drops</label>
+        <div class="signup__row">
+          <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+          <button class="btn btn--primary" type="submit">Notify me</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span class="footer-brand">Shiny Rock Games</span>
+    <div class="footer-links">
+      <a href="https://discord.gg/f2EysadzFF">Discord</a>
+      <a href="https://www.tiktok.com/@shiny.rock.games">TikTok</a>
+      <!-- TODO: add Instagram and Threads once the accounts exist -->
+      <a href="mailto:shinyrockgames@gmail.com">Contact</a>
+    </div>
+    <span class="footer-copy">© 2026 Shiny Rock Games</span>
+  </div>
+</footer>
+
 </body>
 </html>

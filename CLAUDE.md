@@ -58,11 +58,11 @@ The sunburst and gem shards are part of the brand, not decoration to remove.
 
 ## Writing
 
-UK English. Plain, warm, a bit daft, specific to tiddlywinks. Short sentences. Real tiddlywinks terms are welcome (squidger, pot out), but Scrunge is single-player: no squopping, opponents or "your mates". Don't invent facts about the game or the team: leave a bracketed placeholder instead.
+UK English. Plain, warm, a bit daft, specific to tiddlywinks. Short sentences. Write "wink" in lowercase, never "Wink". Real tiddlywinks terms are welcome (squidger, pot out), but Scrunge is single-player: no squopping, opponents or "your mates". Don't invent facts about the game or the team: leave a bracketed placeholder instead.
 
 ## Content status
 
-- **Scrunge:** single-player tiddlywinks game (flick, smash, pot; beat each level's target score), in development, demo coming soon on itch.io. Perks are presented as pogs (90s milkcap style, risograph look, deliberately scrappy). The mascot Mr Scrunge appears only occasionally.
+- **Scrunge:** "a chaotic tiddlywinks roguelike" (that's the pitch; use it consistently). Single-player: flick, smash, stack up perks, pot it before your rack runs out, beat each level's target score. In development, demo coming soon on itch.io. Perks are presented as pogs (90s milkcap style, risograph look, deliberately scrappy). The mascot Mr Scrunge appears only occasionally.
 - **Creature Castle:** spooky match-3 game, out now on Google Play (Android): https://play.google.com/store/apps/details?id=com.shinyrockgames.monstercastle
 - **Support email:** shinyrockgames@gmail.com (shown in full in the footer, not hidden behind a "Contact" link, because mailto does nothing for people with no email app set up; Google Play needs a support contact, so keep it).
 - **"What does this mean?"** video series: lives on TikTok, so its sections link there (plus Discord). Not ready yet, shown as "coming soon" everywhere. Don't add episode cards until there are real episodes. Episode one is about the word "scrunge" itself (a wink that bounces back out of the pot). It's the first card in the "Learn the lingo" glossary on `scrunge.html`.
@@ -77,7 +77,6 @@ Search the files for `TODO` and `[` placeholders. Outstanding:
 - [ ] itch.io page: when it exists, switch the two "Follow on TikTok" buttons on `scrunge.html` back to itch.io and add it to the footer
 - [ ] Instagram and Threads: add to both footers once the accounts exist
 - [ ] Press kit: none yet; add a footer link if one is made
-- [ ] Scrunge one-line pitch
 - [ ] Gameplay trailer: the hero currently shows the demo announcement teaser; swap it when real gameplay footage exists
 - [ ] Pog artwork and perk names
 - [ ] A proper share image (1200x630) for `index.html` (`scrunge.html` already has one)

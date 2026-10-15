@@ -173,6 +173,7 @@ video.step__media { display: block; width: 100%; height: auto; object-fit: cover
 .site-footer .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; }
 .footer-brand { font-family: var(--font-display); font-size: 20px; text-transform: uppercase; }
 .footer-links { display: flex; flex-wrap: wrap; gap: 20px; font-family: var(--font-mono); font-size: 14px; letter-spacing: 2px; text-transform: uppercase; }
+.footer-links .footer-email { text-transform: none; letter-spacing: 1px; overflow-wrap: anywhere; }
 .footer-copy { font-family: var(--font-mono); font-size: 14px; color: var(--muted); }
 
 /* Small screens */

@@ -65,7 +65,7 @@ UK English. Plain, warm, a bit daft, specific to tiddlywinks. Short sentences. R
 - **Scrunge:** single-player tiddlywinks game (flick, smash, pot; beat each level's target score), in development, demo coming soon on itch.io. Perks are presented as pogs (90s milkcap style, risograph look, deliberately scrappy). The mascot Mr Scrunge appears only occasionally.
 - **Creature Castle:** spooky match-3 game, out now on Google Play (Android): https://play.google.com/store/apps/details?id=com.shinyrockgames.monstercastle
 - **Support email:** shinyrockgames@gmail.com (footer "Contact" link; Google Play needs a support contact, so keep it).
-- **"What does this mean?"** video series: not ready yet, shown as "coming soon" everywhere. Don't add episode cards until there are real episodes. Episode one is about the word "scrunge" itself (a wink that bounces back out of the pot). It's the first card in the "Learn the lingo" glossary on `scrunge.html`.
+- **"What does this mean?"** video series: lives on TikTok, so its sections link there (plus Discord). Not ready yet, shown as "coming soon" everywhere. Don't add episode cards until there are real episodes. Episode one is about the word "scrunge" itself (a wink that bounces back out of the pot). It's the first card in the "Learn the lingo" glossary on `scrunge.html`.
 - **Discord:** https://discord.gg/f2EysadzFF (real, working link). It's the main way to follow the studio: there is no mailing list, so don't add an email sign-up.
 - **TikTok:** https://www.tiktok.com/@shiny.rock.games (real; use this clean URL, not the share link with tracking parameters).
 - **No other socials yet.** Instagram and Threads are being set up. There is no X, Bluesky, itch.io page or press kit, so don't link to them.

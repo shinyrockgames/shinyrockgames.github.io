@@ -6,13 +6,14 @@ Nieve reviews and commits everything in GitHub Desktop. **Do not commit or push.
 
 ## Files
 
-- `index.html`: home page (hero, our games, "What does this mean?" series teaser, about, Discord band)
+- `index.html`: home page (hero, our games, "What does this mean?" series teaser, about, meet the team, Discord band)
 - `scrunge.html`: Scrunge game page (hero + trailer, how it plays, pogs, tiddlywinks glossary, demo CTA)
 - `style.css`: all shared styles; design tokens are CSS variables at the top
 - `images/logo.png`: gnome sticker logo with transparent background (also used as favicon and og:image for now)
 - `videos/scrunge-demo-announcement.mp4`: 9s "Demo coming soon" teaser (1080p, no audio), shown in the Scrunge hero
 - `images/scrunge-trailer-poster.jpg`: last frame of the teaser, used as the video poster
 - `images/scrunge-screenshot.webp`, `images/creature-castle-screenshot.webp`: 1200x675 game card images on the home page
+- `images/team/nieve-brand.webp`, `gavin-brand.webp`, `james-brand.webp`: 640px square founder portraits for "Meet the team"
 - `images/scrunge-share.jpg`: 1200x630 share image for `scrunge.html` (`og:image`)
 - `videos/scrunge-flick.mp4`, `videos/scrunge-smash.mp4`, `videos/scrunge-pot.mp4` (+ `.jpg` posters): silent looping "How it plays" clips, cut from the B-roll at 960px wide. Use looping MP4s like these rather than real GIFs (far smaller and sharper)
 - `app-ads.txt`: AdMob verification for Creature Castle. **Must stay at the site root. Never delete or edit it.**

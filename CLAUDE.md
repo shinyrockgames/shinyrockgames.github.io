@@ -1,12 +1,13 @@
 # Shiny Rock Games website
 
-Static site for Shiny Rock Games, hosted on GitHub Pages. Plain HTML and CSS, no build step, no framework, no JavaScript needed so far. Keep it that way unless there's a real reason.
+Static site for Shiny Rock Games, hosted on GitHub Pages. The company's legal name is **Shiny Rock Games Ltd**: use it in the footer (brand and copyright line) and on legal pages. No company number yet. Plain HTML and CSS, no build step, no framework, no JavaScript needed so far. Keep it that way unless there's a real reason.
 
 Nieve reviews and commits everything in GitHub Desktop. **Do not commit or push.** Make the edits, then summarise what changed so she can review the diff.
 
 ## Files
 
 - `index.html`: home page (hero, our games, "What does this mean?" series teaser, about, meet the team, Discord band)
+- `creature-castle-terms.html`: Terms of Service for Creature Castle (linked from Google Play, so keep the URL stable)
 - `scrunge.html`: Scrunge game page (hero + trailer, how it plays, pogs, tiddlywinks glossary, demo CTA)
 - `style.css`: all shared styles; design tokens are CSS variables at the top
 - `images/logo.png`: gnome sticker logo with transparent background (also used as favicon and og:image for now)
@@ -75,8 +76,10 @@ UK English. Plain, warm, a bit daft, specific to tiddlywinks. Short sentences. W
 
 Search the files for `TODO` and `[` placeholders. Outstanding:
 
+- [ ] Creature Castle Privacy Policy page (required by Google Play for apps with ads), then update the `#TODO-privacy-policy` link on the terms page
+- [ ] Add the company number and registered office to the legal pages once we're ready
 - [ ] itch.io page: when it exists, switch the two "Follow on TikTok" buttons on `scrunge.html` back to itch.io and add it to the footer
-- [ ] Instagram and Threads: add to both footers once the accounts exist
+- [ ] Instagram and Threads: add to the footer on every page once the accounts exist (keep all footers identical)
 - [ ] Press kit: none yet; add a footer link if one is made
 - [ ] Gameplay trailer: the hero currently shows the demo announcement teaser; swap it when real gameplay footage exists
 - [ ] Pog artwork: the four pogs on `scrunge.html` show Wide Pot, Hot Hands, Last Chance and Encore as text on the face until art exists

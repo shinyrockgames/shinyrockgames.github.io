@@ -68,7 +68,7 @@ UK English. Plain, warm, a bit daft, specific to tiddlywinks. Short sentences. W
 
 ## Content status
 
-- **Scrunge:** "a chaotic tiddlywinks roguelike" (that's the pitch; use it consistently). Single-player: flick, smash, stack up perks, pot it before your rack runs out, beat each level's target score. In development, demo coming soon on itch.io. Perks are presented as pogs (90s milkcap style, risograph look, deliberately scrappy). The mascot Mr Scrunge appears only occasionally.
+- **Scrunge:** "a chaotic tiddlywinks roguelike" (that's the pitch; use it consistently). Single-player: flick, smash, stack up perks, pot it before your rack runs out, beat each level's target score. In development, demo coming soon on Steam (not itch.io). Perks are presented as pogs (90s milkcap style, risograph look, deliberately scrappy). The mascot Mr Scrunge appears only occasionally.
 - **Creature Castle:** spooky match-3 game, out now on Google Play (Android): https://play.google.com/store/apps/details?id=com.shinyrockgames.monstercastle
 - **Support email:** shinyrockgames@gmail.com (shown in full in the footer, not hidden behind a "Contact" link, because mailto does nothing for people with no email app set up; Google Play needs a support contact, so keep it).
 - **"What does this mean?"** video series: lives on TikTok, so its sections link there (plus Discord). Not ready yet, shown as "coming soon" everywhere. Don't add episode cards until there are real episodes. Episode one is about the word "scrunge" itself (a wink that bounces back out of the pot). It's the first card in the "Learn the lingo" glossary on `scrunge.html`.
@@ -84,7 +84,7 @@ Search the files for `TODO` and `[` placeholders. Outstanding:
 - [ ] Google Search Console: paste the verification meta tag into the commented-out placeholder in `index.html`'s `<head>`, then submit `sitemap.xml`
 - [ ] Organization JSON-LD `sameAs` in `index.html`: add X, Bluesky, Steam and itch.io URLs as each account or page goes live (placeholders are in the HTML comment above the script)
 - [ ] Add the Creature Castle Privacy Policy page to `sitemap.xml` and give it a canonical link when it's made
-- [ ] itch.io page: when it exists, switch the two "Follow on TikTok" buttons on `scrunge.html` back to itch.io and add it to the footer
+- [ ] Steam store page: when it's live, swap the two "Follow on TikTok" buttons on `scrunge.html` for "Wishlist on Steam" and add Steam to the footer and the JSON-LD `sameAs`
 - [ ] Instagram and Threads: add to the footer on every page once the accounts exist (keep all footers identical)
 - [ ] Press kit: none yet; add a footer link if one is made
 - [ ] Gameplay trailer: the hero currently shows the demo announcement teaser; swap it when real gameplay footage exists

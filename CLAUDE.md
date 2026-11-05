@@ -1,6 +1,6 @@
 # Shiny Rock Games website
 
-Static site for Shiny Rock Games, hosted on GitHub Pages. The company's legal name is **Shiny Rock Games Ltd**: use it in the footer (brand and copyright line) and on legal pages. No company number yet. Plain HTML and CSS, no build step, no framework, no JavaScript needed so far. Keep it that way unless there's a real reason.
+Static site for Shiny Rock Games, hosted on GitHub Pages. The company's legal name is **Shiny Rock Games Ltd**: use it in the footer (brand and copyright line) and on legal pages. Company number 17560228, registered in England and Wales; registered office 56 Tillery Street, Abertillery, Blaenau Gwent, NP13 1HT. These appear on the legal pages only, not the footer. Plain HTML and CSS, no build step, no framework, no JavaScript needed so far. Keep it that way unless there's a real reason.
 
 Nieve reviews and commits everything in GitHub Desktop. **Do not commit or push.** Make the edits, then summarise what changed so she can review the diff.
 
@@ -17,9 +17,13 @@ Nieve reviews and commits everything in GitHub Desktop. **Do not commit or push.
 - `images/team/nieve-brand.webp`, `gavin-brand.webp`, `james-brand.webp`: 640px square founder portraits for "Meet the team"
 - `images/scrunge-share.jpg`: 1200x630 share image for `scrunge.html` (`og:image`)
 - `videos/scrunge-flick.mp4`, `videos/scrunge-smash.mp4`, `videos/scrunge-pot.mp4` (+ `.jpg` posters): silent looping "How it plays" clips, cut from the B-roll at 960px wide. Use looping MP4s like these rather than real GIFs (far smaller and sharper)
+- `robots.txt`: allows all crawlers and points to the sitemap
+- `sitemap.xml`: every public page with its full `https://shinyrockgames.github.io/` URL and `lastmod` date
 - `app-ads.txt`: AdMob verification for Creature Castle. **Must stay at the site root. Never delete or edit it.**
 
 Preview by opening `index.html` in a browser. Check at phone width too.
+
+**Adding a page:** give it a `<link rel="canonical">` with its full URL and add it to `sitemap.xml`. When a page changes meaningfully, update its `lastmod` in the sitemap. The home page's canonical URL is the root (`https://shinyrockgames.github.io/`), not `/index.html`. The Organization JSON-LD in `index.html`'s `<head>` should only ever list real, public URLs in `sameAs`.
 
 ## Brand
 
@@ -77,7 +81,9 @@ UK English. Plain, warm, a bit daft, specific to tiddlywinks. Short sentences. W
 Search the files for `TODO` and `[` placeholders. Outstanding:
 
 - [ ] Creature Castle Privacy Policy page (required by Google Play for apps with ads), then update the `#TODO-privacy-policy` link on the terms page
-- [ ] Add the company number and registered office to the legal pages once we're ready
+- [ ] Google Search Console: paste the verification meta tag into the commented-out placeholder in `index.html`'s `<head>`, then submit `sitemap.xml`
+- [ ] Organization JSON-LD `sameAs` in `index.html`: add X, Bluesky, Steam and itch.io URLs as each account or page goes live (placeholders are in the HTML comment above the script)
+- [ ] Add the Creature Castle Privacy Policy page to `sitemap.xml` and give it a canonical link when it's made
 - [ ] itch.io page: when it exists, switch the two "Follow on TikTok" buttons on `scrunge.html` back to itch.io and add it to the footer
 - [ ] Instagram and Threads: add to the footer on every page once the accounts exist (keep all footers identical)
 - [ ] Press kit: none yet; add a footer link if one is made
